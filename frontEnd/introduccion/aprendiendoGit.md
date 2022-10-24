@@ -163,13 +163,13 @@ Ejecutar el comando:
 
         - `git branch`
     
-    * Agregar una rama o cambiar de rama existente
+    * Agregar una rama o cambiar de rama existente:
 
         - `git checkout -b nombreRama`
 
         > *Usualmente se nombran con feature/Nombre o numerodeticket*
 
-+ Traer los cambios de una rama a la "main"
++ Traer los cambios de una rama a la "main":
 
     > *debemos estar en la rama main*
 
@@ -179,9 +179,10 @@ Ejecutar el comando:
 
     - `git remote add origin "repositorio"`
 
-+ Agregar rama main a un repositorio nuevo
++ Agregar rama main a un repositorio nuevo:
     
     -`git push -u origin main`
-+ Clonar un repositorio remoto a local_
+
++ Clonar un repositorio remoto a local:
 
     - `git clone "repositorio"`

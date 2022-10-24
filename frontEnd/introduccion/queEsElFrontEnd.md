@@ -174,3 +174,9 @@ Estructura de aplicación: Cuando documentamos todo un proyecto tendremos difere
 Decidí empezar este camino aprendiendo Git para tener un control de las versiones de mis proyectos y contar con un respaldo de mis archivos.
 
 > [Aprendiendo GIt](aprendiendoGit.md)
+
+## Figma
+
+Ya que estoy empezando por la parte del Frontend y gracias a que se dio la oportunidad tomare un curso de Figma brindado por Leonidas Esteban.
+
+> [Aprendiendo Figma](aprendiendoFigma.md)
