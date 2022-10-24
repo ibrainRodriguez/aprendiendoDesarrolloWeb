@@ -1,10 +1,10 @@
-### ¿Que es FrontEnd?
+## ¿Que es FrontEnd?
 
 Cuando hablamos de front nos referimos a la parte de "en frente" de las aplicaciones web, es decir la parte en la que interactúan y visualizan los usuarios.
 
 En el FrontEnd construimos todo el diseño del sitio, desde la estructura, el acomodo, la distribución de contenido, los estilos que se muestran y los flujos que interactúan con los usuarios.
 
-### El usuario
+## El usuario
 
 El FrontEnd estará enfocado al usuario, ya que:
 
@@ -16,9 +16,9 @@ Por ello existen ***UI/UX*** el cual se refiere a User Interface y User Experien
 
 > *Se debe hacer una investigación para conocer a los usuarios que utilizaran la aplicación.*
 
-### Patrones de arquitectura de desarrollo Web
+## Patrones de arquitectura de desarrollo Web
 
-#### MVC (Model View Controller)
+### MVC (Model View Controller)
 
 Uno de los patrones de diseño web más utilizados/seguros y con el cual podremos tener muchísimo más claro el funcionamiento de todo el FrontEnd, la parte a la que nos referimos para el Front es la parte de la "Vista".
 
@@ -34,7 +34,7 @@ Su fundamento es la separación del código en tres capas diferentes *Model, Vie
 
 > *Así como este patrón de diseño arquitectónico existen algunos otros como MVM (Model View View Model), MVP (Model View Presenter), RMR (Resource Method Representation) y se recomienda que utilices el que sea mejor para tu aplicación.*
 
-### SDLC (Software Development Life Cycle)
+## SDLC (Software Development Life Cycle)
 
 El Ciclo de Vida del desarrollo de software es parte fundamental al momento de hacer una aplicación, ya que las fases de este modelo harán que el desarrollo sea mucho mas controlado, escalable y mantenible.
 
@@ -45,7 +45,7 @@ Las faces de este modelo son las siguientes:
 - Fase 4: Verificación --> En esta fase revisarás y confirmarás que las buenas prácticas se aplicaron en el código. En esta parte se integran las pruebas de CI/CD e integración de pruebas unitarias.
 - Fase 5: Mantenimiento y evaluación --> Los sistemas son un ente vivo y por lo tanto tiene que mantenerse en continuo movimiento.
 
-### ¿Qué tecnologías se usan en FrontEnd?
+## ¿Qué tecnologías se usan en FrontEnd?
 
 El FrontEnd tiene muchísimos sabores y existen cientos de formas de hacer que tengas una página o aplicación web.
 
@@ -58,7 +58,7 @@ En mi caso, por el cuso que estoy tomando por parte de INNOVACCION y para comenz
 + ### JavaScript
 * Es el "cerebro" de nuestra plataforma, una vez que nosotros utilizamos JS en el sitio le damos la capacidad de escalar las funcionalidades de forma exponencial, ya que pasamos de las propiedades que tienen las etiquetas (Que también tienen algo de JS) a tener una cantidad virtualmente infinita de posibilidades.Podemos considerar a JS como el sistema nervioso que controla toda nuestra aplicación web y la que manejará todos los músculos y huesos de nuestro sitio.
 
-### Frameworks
+## Frameworks
 
 Un framework es el esquema o estructura que se establece y que se aprovecha para desarrollar y organizar un software determinado
 
@@ -75,7 +75,7 @@ Algunos de los frameworks de JS para FrontEnd mas famosos son:
 
 Mientras que para Backend uno de estos puede ser **NODE JS**.
 
-### Setup de un programador FrontEnd
+## Setup de un programador FrontEnd
 
 En cual profesión en la que nos dediquemos necesitaremos utilizar herramientas que nos ayuden a realizar nuestro trabajo.
 
@@ -87,7 +87,7 @@ En caso de la programación web y específicamente del FrontEnd utilizare las si
 
 Algunas de las herramientas podrían ser opcionales o en un ámbito profesional podrían ser utilizadas por otras áreas de la empresa, sin embargo, es importante que ustedes las conozcan para que en el flujo operativo de la empresa, su aporte sea mucho más valioso. *Es decir que launch x propone la utilización de estas herramientas para tener el conocimiento del flujo operacional de una empresa*.
 
-#### Herramienta de diseño
+### Herramienta de diseño
 
 Esta herramienta es la que nos da la capacidad de tener un prototipo de la aplicación sin poner NI UNA línea de código.
 
@@ -123,7 +123,7 @@ Una vez realizado tu wireframe pasaremos a la parte de **UI/UX**, en este moment
 
 * Adobe XD (https://www.adobe.com/mx/products/xd.html) Existe su versión de prueba gratuita que te dejará ocupar la herramienta completa para crear todos tus diseños y el costo para tener un plan pro no es muy alto, tiene la ventaja de estar basado en las herramientas de Adobe, por lo que si ya tienes experiencia con alguna de estas herramientas, la curva de aprendizaje podría ser más corta.
 
-#### IDE de programación
+### IDE de programación
 
 Un IDE (Integrated Development Environment) es un software que nos ayuda a los desarrolladores a poder construir aplicaciones de forma más sencilla, esto es porque combina diferentes herramientas de desarrollo en una sola interfaz gráfica. Algunas de estas herramientas son:
 
@@ -138,7 +138,7 @@ Existen muchos IDE pero los más populares son:
 - Atom
 - Sublime Text
 
-#### Navegador web
+### Navegador web
 
 Al ser programadores web todo lo que programemos se desplegará en un navegador web, aquí hay que tener mucho cuidado y revisar que la tecnología que estemos utilizando es compatible y se despliega de forma igual o similar en todos los navegadores.
 
@@ -146,14 +146,14 @@ No obstante debemos siempre revisar la compatibilidad. Para eso existen platafor
 
 - "Can I use" https://caniuse.com/ - la cual nos dice en que navegadores podemos utilizar la tecnología de HTML, CSS y JS que queramos utilizar.
 
-#### Developer tool
+### Developer tool
 
 Son herramientas que nod darán información adicional sobre nuestra aplicación y mejoras que podemos implementar, como:
 
 - Lighthouse de Google (https://developers.google.com/web/tools/lighthouse?hl=es)
 -  axe DevTools (https://www.deque.com/axe/devtools/) ayuda a personas ciegas o de debilidad visual.
 
-#### Documentación
+### Documentación
 
 Una de las fallas más grandes que me ha tocado ver a lo largo de mi carrera es que no se documentan los desarrollos. ya que en caso de que se cambie de desarrollador o de que sea un programa que tiene mucho tiempo que no mueves, necesitas conocer y entender como fue desarrollado.
 
@@ -169,8 +169,8 @@ Definir tu audiencia: A quien va a ir dirigida tu documentación, si es para otr
 Qué problemática soluciona tu código: Todo lo que programamos tiene una funcionalidad por módulo y necesitamos definir que parte de la aplicación afecta, en que forma y cuales son las opciones de entrada y salida de nuestras funciones.
 Estructura de aplicación: Cuando documentamos todo un proyecto tendremos diferentes secciones, funcionalidades, páginas o incluso otros sitios que se conecten al nuestro, para esto es recomendable documentar desde lo más general a lo particular, un ejemplo muy bueno lo podemos encontrar en la documentación de Firebase (https://firebase.google.com/docs/build)
 
-### GIT
+## GIT
 
-Como parte de mi aprendizaje empezare este camino aprendiendo Git para tener un control de las versiones de mis proyectos, contar con un respaldo de mis archivos y lo más importante la creación de mi portafolio.
+Decidí empezar este camino aprendiendo Git para tener un control de las versiones de mis proyectos y contar con un respaldo de mis archivos.
 
 > [Aprendiendo GIt](aprendiendoGit.md)

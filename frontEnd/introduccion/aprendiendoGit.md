@@ -1,12 +1,12 @@
-### Primero pasos en Git y Github
+# Primeros pasos en Git y Github
 
-Aprenderé Git de manera autónoma a traves de videos y cursos y los listare a continuación:
+Aprenderé Git de manera autónoma a traves de videos, cursos y documentación, ademas los listare a continuación:
 
 > YouTube 
 > Canal: HolaMundo, video: Aprende GIT ahora! curso completo GRATIS desde cero
 > Canal: Yito on Code, video: Git-GitFlow & Github | Curso práctico utilizando flujo de trabajo (desde cero)
 
-#### Apuntes 
+### Apuntes 
 
 Git es el sistema distribuido de control de versiones mas popular.
 
@@ -25,28 +25,29 @@ Git nos permite:
 
 *En este curso utilizaremos git bash para utilizar los comandos de bash*
 
-**Comandos de configuración:**
+### Comandos de configuración inicial
 
-Ver ayuda:
++ Ver ayuda:
 
-`git -h` 
+    - `git -h` 
 
-Establecer nombre:
++ Establecer nombre:
 
-`git config --global user.name "nombre"` 
-> *global se utiliza para que la configuración se efectué de manera global y no solo al proyecto*
+    - `git config --global user.name "nombre"` 
+    > *global se utiliza para que la configuración se efectué de manera global y no solo al proyecto*
 
-Establecer email:
++ Establecer email:
 
-`git config --global user.email email`
+    - `git config --global user.email email`
 
-Establecer que la rama principal sea "main"(esto debido a que github lo toma con ese nombre):
++ Establecer que la rama principal sea "main"(esto debido a que github lo toma con ese nombre):
 
-`git config --global init.defaultBranch main`
+    - `git config --global init.defaultBranch main`
 
-Establecer el comando que usaremos para abrir nuestro editor:
++ Establecer el comando que usaremos para abrir nuestro editor:
 
-`git config --global core.editor "code --wait"`
+    - `git config --global core.editor "code --wait"`
+
 
 En windows cada vez que utilizamos un salto de linea Windows agrega 2 caracteres especiales
 - CR(CARRIAGE RETURN)
@@ -71,7 +72,7 @@ Ejecutar el comando:
 
 > *La  carpeta de .git es siempre ignorada por los repositorios que creamos, no comparte entre desarrolladores y no se envía al servidor central*
 
-#### Flujo de trabajo que debemos seguir
+### Flujo de trabajo que debemos seguir
 
 ![imagenFlujodeTrabajoGit](/frontEnd/imagenes/flujoDeTrabajoGit.jpg)
 
@@ -101,7 +102,7 @@ Ejecutar el comando:
         - Se pueden sacar los commit con:
             - `git pull`
 
-#### Recopilación de comandos de trabajo
+### Recopilación de comandos de trabajo
 
 
 
