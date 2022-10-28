@@ -14,6 +14,7 @@ Por sus siglas en ingles Hypertext Markup Language o **lenguaje de marcado de hi
 > *Es un estándar que sirve de referencias para la elaboración de paginas web y esta a cargo del W3C (World Wide Web Consortium)*
 > *index.html se busca como archivo base que se abre por defecto en el navegador*
 > *HTML describe la estructura de una página Web*
+> *HTML describe la estructura de una página Web, no esta especializado en el diseño*
 
 ## Como funciona HTML
 
@@ -114,7 +115,9 @@ Una etiqueta consta de 3 partes
 
 + `<a href="direccion">ir a link</a>`
     - la etiqueta ancore se usa para insertar hipervínculos, a sitios externos o internos
-    > *Con la propiedad **target="_blank"** se abre en una nueva pestaña el hipervínculo*
+    > *Con la propiedad **target="_blank"** se abre en una nueva pestaña el hipervínculo.*
+    > ***href="mailto:ibrain@correo.com"*** abre una ventana del cliente de correo para enviar un mail. 
+    > ***href="#idelemento"*** envía a el elemento con ese id
 
 + `<img></img> o <img />`
     - mostrar imágenes al usuario
@@ -179,34 +182,73 @@ Una etiqueta consta de 3 partes
         ```
 + Agregar tabla:
 
-- ```html
-    <table style="width: 500px;">
-        <thead>
-            <tr>
-                <th>Producto</th>
-                <th>Precio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Jamón</td>
-                <td>Gratis</td>
-            </tr>
-            <tr>
-                <td>Piña</td>
-                <td>Gratis</td>
-            </tr>
-            <tr>
-                <td>lechón al horno bañado en salsa negra</td>
-                <td>19,99</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td></td>
-            <td>Total: 19,99</td>
-        </tfoot>
-    </table>
-```
+    - ```html
+        <table style="width: 500px;">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jamón</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td>Piña</td>
+                    <td>Gratis</td>
+                </tr>
+                <tr>
+                    <td>lechón al horno bañado en salsa negra</td>
+                    <td>19,99</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td></td>
+                <td>Total: 19,99</td>
+            </tfoot>
+        </table>
+    ```
++ `<header></header>`
 
+    - Puede contener algunos elementos de encabezado, así como también un logo o un menu
+
++ `<footer></footer>`
+    
+    - La etiqueta define un pie de página para un documento o sección.
+    - Normalmente contiene:
+        * Información de autoría
+        * Información sobre derechos de autor
+        * Información de contacto
+        * mapa del sitio
+        * volver al principio enlaces
+        * Documentos relacionados
+
++ `<section></section>`
+
+    - Representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema.
+
++ `<div></div>`
+
+    - Representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. **Ya no se utiliza mucho** 
+    - solo dejar un div si esta anidado y no tienen clases.
+
++ `<article></article>`
+
+    - Se utiliza para definir contenido independiente, ejemplo post de un articulo, enmarcar publicación o imagen(de Facebook, twitter, Instagram)
+
+## Atributos
+
++ id="nombreElemento"
+
+    - Se utiliza para identificar a un elementos especifico
+    > *Los id no se deben repetir entre elementos*
+
++  class="nombreDeConjuntoDeElementos"
+
+    - Se utiliza para identificar a **más** de un elemento (o agruparlos). 
+
+> ***Estos elementos id y class nos sirven para identificar elementos para posteriormente ser seleccionados con CSS o JS***
 
 
