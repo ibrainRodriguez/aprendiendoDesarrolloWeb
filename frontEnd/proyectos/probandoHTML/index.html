@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Probando</h1>
+    <!-- Este es un comentario -->
+
+    <p>Hola esto es un parrafo</p>
+    <hr>
+    <p>
+        Me gustan mucho los <spam style="background-color: aquamarine;">cachorros</spam> y también me gustan los gatos, pero no me gustan las marmotas, los loros, las langostas, los grillos ni los mosquitos. <br> Me gustan las flores
+    </p>
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <br>
+    <img src="/frontEnd/imagenes/arbolEstructura.png" width="200" />
+
+
+    <h2>Mi Primer Formulario</h2>
+    <form id="formulario" action="/registrar" method="POST"> 
+        <label for="nameForm">Nombre</label>
+        <input id="nameForm" name="nameForm" placeholder="Nombre" />
+        <br>
+        <label for="edadForm">Edad</label>
+        <input type="" id="edadForm" name="edadForm" placeholder="Edad" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea rows="10" cols="20" id="comentario" name="comentario" placeholder="Inserte un comentario"></textarea>
+        <br>
+        <button type="submit">Registrar</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+    <h2>Mi primera lista no ordenada</h2>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+
+    <h2>Mi primera lista ordenada</h2>
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4
+            <ol style="list-style-type:lower-latin;">
+                <li>Subelemento 1</li>
+                <li>Subelemento 2</li>
+                <li>Subelemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h2>Mi primera tabla</h2>
+    <table style="width: 500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jamón</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Piña</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>lechón al horno bañado en salsa negra</td>
+                <td>19,99</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 19,99</td>
+        </tfoot>
+    </table>
+
+</body>
+</html>
