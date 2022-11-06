@@ -71,10 +71,23 @@ Una etiqueta consta de 3 partes
     </body>
 </html>
 ```
+
 - head, va los metadatos, datos que no vera el usuario
 - dody, va el contenido que sera visible para el usuario.
 
+## Estructura básica de HTML en una página Web
+
+- Container: contenedor principal
+- Header: cabecera de la página. Aquí usualmente encuentras el logo y el menú de navegación del sitio.
+- Main content: estructura principal. Por ejemplo, el feed o lista de publicaciones de una red social.
+- Sidebar: contenido secundario de una página, que usualmente se encuentra a los lados del contenido principal (o main).
+- Footer: pie de página. Esto se encuentra al fondo del sitio web, salvo en casos de sitios web donde el scroll (o navegación hacia abajo) es infinito, por ende, no tendría sentido ponerlo al fondo.
+
 ## Etiquetas HTML
+
++ Existen 2 tipos de etiquetas:
+    - Contenedoras
+    - De contenido
 
 + `<!DOCTYPE html>`
     - Indica al explorador web que el contenido es de tipo html5
@@ -82,16 +95,24 @@ Una etiqueta consta de 3 partes
 
 + `<html></html>`
     - Es la etiqueta raíz de todo documento HTML
+    - Atributos:
+        * lang="es_MX" - indica al navegador el lenguaje de la pagina   
 
 + `<head></head>`
-    - Dentro de esta etiqueta se agregan más características como, titulo o metadatos.
+    - Dentro de esta etiqueta se agregan más características como, titulo, css, js, metadatos.
 
-+ `<title>Titulo</title>`
-    - Especifica el titulo para una pagina HTML
+    - `<title>Titulo</title>`
+        * Especifica el titulo para una pagina HTML
+    - `<meta charset="UTF-8">`
+        * Para caracteres especiales del idioma y emojis
+    - `<meta name="description" content="Esta pagina es un blog">`
+        * Para agregar una descripción del sitio web ayuda a que usuario entienda de que es la pagina
+    - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+        * Si el proyecto se abre desde una dispositivo mobile se ve mejor la letra
 
 + `<body></body>`
     - Aquí se incluye todo el contenido visible de nuestra pagina web.
-    - es un contenedor para todos los contenidos visibles
+    - Es un contenedor para todos los contenidos visibles
 
 + `<h1> Hola </h1>`
     - Encabezado
@@ -251,4 +272,9 @@ Una etiqueta consta de 3 partes
 
 > ***Estos elementos id y class nos sirven para identificar elementos para posteriormente ser seleccionados con CSS o JS***
 
+## Entidades HTML
+
++ Agregar tildes:
+    
+    - `&<letra>acute` ejemplos: `&iacute` 
 
