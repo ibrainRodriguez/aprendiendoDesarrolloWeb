@@ -100,9 +100,7 @@ Ejecutar el comando:
 
 ### Flujo de trabajo que debemos seguir
 
-<center>
-<img src="/frontEnd/imagenes/flujoDeTrabajoGit.jpg" alt="vscode logo" height="400px">
-</center>
+<img src="/frontEnd/imagenes/flujoDeTrabajoGit.jpg" alt="Flujo de trabajo git" style="width: 400px;max-width: 100%;">
 
 + Area Local
     * Working Directory
