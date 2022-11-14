@@ -1,3 +1,7 @@
+---
+title: "aprendiendo HTML"
+author: "Ibrain Rodriguez Espinoza"
+---
 ## Primeros pasos en HTML
 
 Estaré subiendo mi aprendizaje de HTMl, los recursos los listare a continuación:

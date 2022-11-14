@@ -1,3 +1,7 @@
+---
+title: "¿Qué es el frontend?"
+author: "Ibrain Rodriguez Espinoza"
+---
 ## ¿Que es FrontEnd?
 
 Cuando hablamos de front nos referimos a la parte de "en frente" de las aplicaciones web, es decir la parte en la que interactúan y visualizan los usuarios.

@@ -1,6 +1,10 @@
+---
+title: "aprendiendo Figma"
+author: "Ibrain Rodriguez Espinoza"
+---
 # Primeros pasos Figma
 
-Aprenderé Figma de manera autónoma a traves de videos, cursos y documentación, ademas los listare a continuación:
+Aprenderé Figma a traves de videos, cursos y documentación, ademas los listare a continuación:
 
 > Curso de https://leonidasesteban.com 
 > Nombre: Curso de Figma para frontEnd

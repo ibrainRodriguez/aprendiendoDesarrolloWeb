@@ -1,8 +1,8 @@
+---
+title: "aprendiendo Git"
+author: "Ibrain Rodriguez Espinoza"
+---
 # Primeros pasos en Git y Github
-
-## Los archivos binarios como imagenes no se deberían agregar a los repositorios.
-
-## En el main solo debería enviarse lo que estamos seguro de que saldrá en producción
 
 Aprenderé Git de manera autónoma a traves de videos, cursos y documentación, ademas los listare a continuación:
 
@@ -11,6 +11,10 @@ Aprenderé Git de manera autónoma a traves de videos, cursos y documentación, 
 > Canal: Yito on Code, video: Git-GitFlow & Github | Curso práctico utilizando flujo de trabajo (desde cero)
 
 ### Apuntes 
+
+>***Los archivos binarios como imagenes no se deberían agregar a los repositorios.***
+
+>***En el main solo debería enviarse lo que estamos seguro de que saldrá en producción***
 
 Git es el sistema distribuido de control de versiones mas popular.
 
@@ -96,7 +100,9 @@ Ejecutar el comando:
 
 ### Flujo de trabajo que debemos seguir
 
-![imagenFlujodeTrabajoGit](/frontEnd/imagenes/flujoDeTrabajoGit.jpg)
+<center>
+<img src="/frontEnd/imagenes/flujoDeTrabajoGit.jpg" alt="vscode logo" height="400px">
+</center>
 
 + Area Local
     * Working Directory

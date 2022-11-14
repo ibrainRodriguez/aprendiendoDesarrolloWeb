@@ -1,3 +1,8 @@
+---
+title: "aprendiendo Git2"
+author: "Ibrain Rodriguez Espinoza"
+---
+
 > Estos recursos los saque de un curso que tome en platzi
 
 > Doy gracias y reconocimiento a Franco Coloccini, Diego Camacho Freddy Vega por esta información
