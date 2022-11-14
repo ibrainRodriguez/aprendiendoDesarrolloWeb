@@ -24,7 +24,7 @@ Por sus siglas en ingles Hypertext Markup Language o **lenguaje de marcado de hi
 
 HTM funciona como una estructura de árbol nosotros tenemos un nodo principal y de allí se pueden agregar mas nodos.
 
-![arbolEstructura](/frontEnd/imagenes/arbolEstructura.png)
+<img src="/frontEnd/imagenes/arbolEstructura.png" alt="Estructura de árbol html" style="width: 400px;max-width: 100%;">
 
 ```html
 <!DOCTYPE html>
@@ -59,7 +59,7 @@ Una etiqueta consta de 3 partes
 
 ## Estructura de HTML
 
-![estructuraHTML](/frontEnd/imagenes/estructuraHTML.png)
+<img src="/frontEnd/imagenes/estructuraHTML.png" alt="Estructura de html" style="width: 400px;max-width: 100%;">
 
 ```html
 <!DOCTYPE html>
