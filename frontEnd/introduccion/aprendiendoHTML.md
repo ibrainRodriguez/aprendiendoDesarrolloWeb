@@ -26,6 +26,10 @@ HTM funciona como una estructura de árbol nosotros tenemos un nodo principal y 
 
 <img src="/frontEnd/imagenes/arbolEstructura.png" alt="Estructura de árbol html" style="width: 400px;max-width: 100%;">
 
+### DOM
+
+El DOM (Document Object Model) es prácticamente esa estructura de árbol que representara a nuestros proyectos web, es decir la representación jerárquica de los elementos en html en un documento.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -45,6 +49,8 @@ HTM funciona como una estructura de árbol nosotros tenemos un nodo principal y 
 ## ¿Qué es una etiqueta?
 
 Una etiqueta son "códigos" que permiten crear elementos HTML
+
+Nos ayudan a brindar una estructura y semántica al contenido de nuestra pagina web  
 
 Una etiqueta consta de 3 partes
 - apertura
@@ -80,6 +86,8 @@ Una etiqueta consta de 3 partes
 - dody, va el contenido que sera visible para el usuario.
 
 ## Estructura básica de HTML en una página Web
+
+<img src="/frontEnd/imagenes/estructuraBasicaPagina.webp" alt="Estructura de una pagina web" style="width: 400px;max-width: 100%;">
 
 - Container: contenedor principal
 - Header: cabecera de la página. Aquí usualmente encuentras el logo y el menú de navegación del sitio.
